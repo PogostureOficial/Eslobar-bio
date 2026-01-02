@@ -196,8 +196,9 @@ a:hover{ text-decoration: underline; text-underline-offset: 4px; }
 
 .section__head h2{
   margin: 0 0 10px;
-  font-size: clamp(28px, 3.2vw, 42px);
+  font-size: 22px;
   letter-spacing: -0.03em;
+  color: rgba(11,11,15,.74);
 }
 
 .lead{
@@ -598,6 +599,7 @@ h2 {
     align-items: center;
   }
 }
+
 
 
 

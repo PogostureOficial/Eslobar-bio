@@ -524,8 +524,8 @@ h2 {
    ========================= */
 
 .editorial {
-  background: #000;
-  color: #fff;
+  background: #fff;
+  color: #000;
   padding: clamp(64px, 8vw, 120px) 0;
 }
 
@@ -549,7 +549,7 @@ h2 {
 .editorial__content p {
   font-size: 18px;
   line-height: 1.6;
-  color: rgba(255,255,255,0.75);
+  color: rgba(000,000,000,0);
   max-width: 48ch;
   margin-bottom: 28px;
 }
@@ -562,7 +562,7 @@ h2 {
 }
 
 .link--light {
-  color: rgba(255,255,255,0.85);
+  color: rgba(000,000,000,1);
   font-size: 15px;
   text-decoration: none;
 }
@@ -599,6 +599,7 @@ h2 {
     align-items: center;
   }
 }
+
 
 
 

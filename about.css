@@ -549,7 +549,7 @@ h2 {
 .editorial__content p {
   font-size: 18px;
   line-height: 1.6;
-  color: rgba(000,000,000,0);
+  color: rgba(000,000,000,1);
   max-width: 48ch;
   margin-bottom: 28px;
 }
@@ -578,7 +578,6 @@ h2 {
   display: block;
   border-radius: 28px;
   object-fit: cover;
-  box-shadow: 0 30px 80px rgba(0,0,0,0.6);
 }
 
 /* =========================
@@ -599,6 +598,7 @@ h2 {
     align-items: center;
   }
 }
+
 
 
 

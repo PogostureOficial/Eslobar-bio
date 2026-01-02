@@ -541,10 +541,11 @@ h2 {
 
 /* Texto */
 .editorial__content h2 {
-  font-size: clamp(32px, 4vw, 48px);
+  font-size: clamp(22px, 4vw, 48px);
   line-height: 1.05;
   letter-spacing: -0.03em;
   margin: 0 0 20px;
+  color: rgba(11,11,15,.74);
 }
 
 .editorial__content p {
@@ -599,6 +600,7 @@ h2 {
     align-items: center;
   }
 }
+
 
 
 

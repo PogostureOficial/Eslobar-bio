@@ -579,7 +579,7 @@ h2 {
   height: auto;
   display: block;
   border-radius: 28px;
-  object-fit: cover;
+  margin-top: 20px;
 }
 
 /* =========================
@@ -640,11 +640,11 @@ h2 {
    ========================= */
 
 .editorial--reverse .editorial__content {
-  text-align: right;
+  text-align: left;
 }
 
 .editorial--reverse .editorial__content h2 {
-  text-align: right;
+  text-align: left;
 }
 
 .editorial--reverse .editorial__content p {
@@ -695,6 +695,7 @@ h2 {
   }
 
 }
+
 
 
 

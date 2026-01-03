@@ -628,8 +628,7 @@ h2 {
 }
 
 .editorial--reverse .editorial__content h2 {
-  margin-left: auto;
-  margin-right: 0;
+  text-align: right;
 }
 
 .editorial--reverse .editorial__content p {
@@ -640,6 +639,7 @@ h2 {
 .editorial--reverse .editorial__actions {
   align-items: flex-end;
 }
+
 
 
 

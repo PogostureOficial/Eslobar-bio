@@ -681,7 +681,21 @@ h2 {
    }
 }
 
-   
+/* =========================================
+   Mobile: imagen primero (solo esta sección)
+   ========================================= */
+@media (max-width: 768px) {
+
+  .editorial--mobile-image-first .editorial__media {
+    order: 1 !important;
+  }
+
+  .editorial--mobile-image-first .editorial__content {
+    order: 2 !important;
+  }
+
+}
+
 
 
 

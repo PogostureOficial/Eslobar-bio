@@ -603,6 +603,22 @@ h2 {
    .editorial {
      padding: clamp(32px, 4vw, 60px) 0;
    }
+
+      .editorial__content {
+     text-align: center;
+   }
+
+   .editorial__content h2 {
+     text-align: center;
+   }
+
+   .editorial--reverse .editorial__content {
+     text-align: center;
+   }
+
+   .editorial--reverse .editorial__content h2 {
+     text-align: center;
+   }
 }
 
 /* =========================
@@ -639,6 +655,7 @@ h2 {
 .editorial--reverse .editorial__actions {
   align-items: flex-end;
 }
+
 
 
 

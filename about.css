@@ -527,7 +527,7 @@ h2 {
 .editorial {
   background: #fff;
   color: #000;
-  padding: clamp(32px, 4vw, 60px) 0;
+  /*padding: clamp(32px, 4vw, 60px) 0; */
 }
 
 .editorial__inner {
@@ -599,6 +599,10 @@ h2 {
   .editorial__actions {
     align-items: center;
   }
+
+   .editorial {
+     padding: clamp(32px, 4vw, 60px) 0;
+   }
 }
 
 /* =========================
@@ -637,6 +641,7 @@ h2 {
 .editorial--reverse .editorial__actions {
   align-items: flex-end;
 }
+
 
 
 

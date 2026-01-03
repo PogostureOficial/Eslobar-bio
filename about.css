@@ -648,7 +648,7 @@ h2 {
 }
 
 .editorial--reverse .editorial__content p {
-  margin-left: auto;
+  margin-left: -0px;
 }
 
 /* Botones alineados al texto */
@@ -695,6 +695,7 @@ h2 {
   }
 
 }
+
 
 
 

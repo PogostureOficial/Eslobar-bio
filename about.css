@@ -541,7 +541,6 @@ h2 {
 
 /* Texto */
 .editorial__content h2 {
-  margin: 18px auto 0;
   max-width: 70ch;
   font-size: 25px;
   color: rgba(11,11,15,.74);
@@ -601,6 +600,7 @@ h2 {
     align-items: center;
   }
 }
+
 
 
 

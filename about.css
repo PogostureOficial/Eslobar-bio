@@ -585,7 +585,7 @@ h2 {
 /* =========================
    Responsive (mobile)
    ========================= */
-@media (max-width: 900px) {
+/*@media (max-width: 900px) { */
   .editorial__inner {
     grid-template-columns: 1fr;
     text-align: center;
@@ -599,7 +599,8 @@ h2 {
   .editorial__actions {
     align-items: center;
   }
-}
+
+
 
 
 

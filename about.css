@@ -527,7 +527,7 @@ h2 {
 .editorial {
   background: #fff;
   color: #000;
-  padding: clamp(48px, 6vw, 80px) 0;
+  padding: clamp(32px, 4vw, 60px) 0;
 }
 
 .editorial__inner {
@@ -599,6 +599,45 @@ h2 {
   .editorial__actions {
     align-items: center;
   }
+}
+
+/* =========================
+   Editorial alignment fix
+   ========================= */
+
+/* Texto a la izquierda (default) */
+.editorial__content {
+  text-align: left;
+}
+
+/* Título */
+.editorial__content h2 {
+  margin-left: 0;
+  margin-right: auto;
+}
+
+/* =========================
+   Reverse (texto a la derecha)
+   ========================= */
+
+.editorial--reverse .editorial__content {
+  text-align: right;
+}
+
+.editorial--reverse .editorial__content h2 {
+  margin-left: auto;
+  margin-right: 0;
+}
+
+.editorial--reverse .editorial__content p {
+  margin-left: auto;
+}
+
+/* Botones alineados al texto */
+.editorial--reverse .editorial__actions {
+  align-items: flex-end;
+}
+
 
 
 

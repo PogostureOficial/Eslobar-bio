@@ -658,6 +658,88 @@ h2 {
 
 
 
+/* =========================================
+   MOBILE GLOBAL FIX (≤ 768px)
+   ========================================= */
+@media (max-width: 768px) {
+
+  /* -------------------------------------------------
+     1. CENTRAR TODOS LOS TEXTOS DE LA PÁGINA
+     ------------------------------------------------- */
+  body,
+  section,
+  h1, h2, h3, h4, h5, h6,
+  p,
+  .hero__inner,
+  .section__head,
+  .editorial__content,
+  .cta__text {
+    text-align: center !important;
+  }
+
+  /* Asegura centrado real */
+  h1, h2, h3, p {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /* Botones centrados */
+  .hero__actions,
+  .editorial__actions,
+  .cta__inner {
+    justify-content: center !important;
+    align-items: center !important;
+  }
+
+  /* -------------------------------------------------
+     2. FORZAR ORDEN: TEXTO → IMAGEN (SIEMPRE)
+     ------------------------------------------------- */
+
+  /* Todas las secciones editoriales en columna */
+  .editorial__inner {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 32px;
+  }
+
+  /* TEXTO SIEMPRE ARRIBA */
+  .editorial__content {
+    order: 1 !important;
+  }
+
+  /* IMAGEN SIEMPRE ABAJO */
+  .editorial__media {
+    order: 2 !important;
+  }
+
+  /* Elimina comportamiento reverse en mobile */
+  .editorial--reverse .editorial__content {
+    order: 1 !important;
+  }
+
+  .editorial--reverse .editorial__media {
+    order: 2 !important;
+  }
+
+  /* -------------------------------------------------
+     3. AJUSTES FINOS VISUALES
+     ------------------------------------------------- */
+
+  .editorial__media img {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+  }
+
+  .lead {
+    font-size: 22px;
+    line-height: 1.5;
+  }
+}
+
+
+
+
 
 
 

@@ -527,7 +527,7 @@ h2 {
 .editorial {
   background: #fff;
   color: #000;
-  padding: clamp(64px, 8vw, 120px) 0;
+  padding: clamp(48px, 6vw, 80px) 0;
 }
 
 .editorial__inner {
@@ -599,6 +599,7 @@ h2 {
   .editorial__actions {
     align-items: center;
   }
+
 
 
 

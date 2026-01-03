@@ -675,9 +675,14 @@ h2 {
    .editorial__content h2 {
      text-align: center;
    }
+
+   .editorial--reverse .editorial__content {
+     text-align: center;
+   }
 }
 
    
+
 
 
 
